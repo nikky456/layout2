@@ -18,7 +18,7 @@ body {
     font-size: 14px;
     margin: 0;
     background-color: #f4f4f4;
-    line-height: 1.5;
+    line-height: 2.5;
 }
 .current {
     width: 100%;
@@ -96,7 +96,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 4 / 2;
     
 
 }
@@ -120,16 +120,19 @@ body {
     text-align: center;
 }
 
-
-
 .footer {
-    padding: 3rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 1rem 0.8rem;
     border-top: 1px solid #ccc;
-    width: 100%;
-    
-    padding: 1rem 0;
-    margin-bottom: 1rem;
 }
+
+.footer p {
+    font-size: 0.9rem;
+    margin-left: 23rem;
+}
+
 
 .label {
     font-size: 1rem;
